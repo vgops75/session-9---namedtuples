@@ -53,8 +53,8 @@ test_is_namedtuple_faster()
 # This seems funny but I couldnt finish the assignment on time.
 
 def test_docstring_for_namedtuples():
-    if 'namedtuple' is in Age.__doc__:
-        if 'age' is in Age.__doc__:
+    if 'namedtuple' in Age.__doc__:
+        if 'age' in Age.__doc__:
             assert len(Age.__doc__) > 20
             # assert (Age.__doc__ == 'Age is a namedtuple with a single field variable "age"')
 
